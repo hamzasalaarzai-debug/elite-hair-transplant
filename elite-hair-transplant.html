@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Elite Hair Transplant Clinic — Pakistan's Premier Hair Restoration Centre. FUE, DHI and PRP with 98.7% success rate. 5,200+ successful procedures.">
+<title>Elite Hair Transplant Clinic | Premium Hair Restoration Pakistan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#080808;--bg2:#0c0c0c;--bg3:#131313;--bg4:#1a1a1a;--gold:#c9a865;--gold-l:#e4d09a;--gold-dim:rgba(201,168,101,.09);--white:#f5f2ec;--gray:#b8b5ae;--muted:#7a7872;--border:rgba(201,168,101,.16);}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--white);font-family:'DM Sans',sans-serif;font-size:16px;line-height:1.7;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{cursor:pointer;font-family:inherit}
+.container{max-width:1200px;margin:0 auto;padding:0 28px}
+.sec{padding:108px 0}
+.sec-alt{background:var(--bg2)}
+.lbl{font-size:10px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.lbl::before{content:'';width:30px;height:1px;background:var(--gold);flex-shrink:0}
+.heading{font-family:'Cormorant Garamond',serif;font-size:clamp(32px,4.5vw,56px);font-weight:300;line-height:1.08;margin-bottom:20px}
+.sub{font-size:14px;color:var(--gray);line-height:1.9;max-width:520px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 36px;font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;border:none;transition:all .28s ease;font-family:'DM Sans',sans-serif;cursor:pointer}
+.btn-gold{background:var(--gold);color:#080808}
+.btn-gold:hover{background:var(--gold-l);transform:translateY(-2px);box-shadow:0 12px 36px rgba(201,168,101,.25)}
+.btn-outline{background:transparent;color:var(--white);border:1px solid rgba(245,242,236,.28)}
+.btn-outline:hover{border-color:var(--gold);color:var(--gold)}
+
+/* NAV */
+.nav{position:fixed;inset:0 0 auto 0;z-index:1000;padding:22px 0;transition:padding .35s,background .35s,border .35s}
+.nav.scrolled{background:rgba(8,8,8,.96);backdrop-filter:blur(22px);padding:14px 0;border-bottom:1px solid var(--border)}
+.nav-wrap{max-width:1200px;margin:0 auto;padding:0 28px;display:flex;align-items:center;justify-content:space-between}
+.logo-e{font-family:'Cormorant Garamond',serif;font-size:25px;font-weight:500;color:var(--gold);letter-spacing:.12em}
+.logo-s{font-size:9px;font-weight:500;letter-spacing:.32em;text-transform:uppercase;color:var(--muted)}
+.nav-menu{display:flex;align-items:center;gap:30px;list-style:none}
+.nav-menu a{font-size:12px;color:var(--gray);letter-spacing:.04em;transition:color .2s}
+.nav-menu a:hover{color:var(--white)}
+.nav-book{padding:11px 26px;background:transparent;color:var(--gold);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;border:1px solid var(--gold);transition:all .28s;white-space:nowrap}
+.nav-book:hover{background:var(--gold);color:#080808}
+.hamburger{display:none;flex-direction:column;gap:5px;padding:4px;background:none;border:none}
+.hamburger span{display:block;width:22px;height:1px;background:var(--white);transition:all .3s}
+.hamburger.open span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0}
+.hamburger.open span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+.mob-overlay{display:none;position:fixed;inset:0;background:rgba(8,8,8,.98);z-index:999;padding:110px 28px 40px;flex-direction:column;gap:4px}
+.mob-overlay.open{display:flex}
+.mob-overlay a{font-family:'Cormorant Garamond',serif;font-size:34px;font-weight:300;color:var(--gray);padding:14px 0;border-bottom:1px solid var(--border);transition:color .2s}
+.mob-overlay a:hover{color:var(--gold)}
+.mob-book-btn{margin-top:28px;padding:16px;background:var(--gold);color:#080808;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;text-align:center}
+
+/* HERO */
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden}
+.hero-bg-img{position:absolute;inset:0;z-index:0}
+.hero-bg-img img{width:100%;height:100%;object-fit:cover;object-position:center;opacity:.12;filter:saturate(.4) brightness(.7)}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(to right,rgba(8,8,8,.97) 55%,rgba(8,8,8,.65) 100%);z-index:1}
+.hero-glow{position:absolute;top:-20%;left:-10%;width:70%;height:80%;background:radial-gradient(ellipse,rgba(201,168,101,.04) 0%,transparent 70%);z-index:2}
+.hero-glow2{position:absolute;bottom:-15%;right:-5%;width:55%;height:65%;background:radial-gradient(ellipse,rgba(201,168,101,.028) 0%,transparent 70%);z-index:2}
+.hero-vline{position:absolute;right:18%;top:0;bottom:0;width:1px;background:linear-gradient(to bottom,transparent,var(--gold),transparent);opacity:.1;z-index:2}
+.p{position:absolute;width:2px;height:2px;background:var(--gold);border-radius:50%;opacity:0;z-index:2;animation:pf var(--d,4s) ease-in-out infinite var(--dl,0s)}
+@keyframes pf{0%,100%{opacity:0;transform:translateY(0)}50%{opacity:var(--op,.6);transform:translateY(-22px)}}
+.hero-content{position:relative;z-index:3;max-width:1200px;margin:0 auto;padding:150px 28px 90px;display:grid;grid-template-columns:1fr 480px;gap:64px;align-items:center}
+.hero-badge{display:inline-flex;align-items:center;gap:10px;padding:9px 22px;border:1px solid var(--border);font-size:10px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:36px;background:rgba(201,168,101,.04)}
+.hero-dot{width:6px;height:6px;background:var(--gold);border-radius:50%;animation:pulse 2s ease-in-out infinite;flex-shrink:0}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.7)}}
+.hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(50px,6vw,90px);font-weight:300;line-height:1;margin-bottom:28px}
+.hero h1 em{font-style:italic;color:var(--gold)}
+.hero-sub{font-size:15px;color:var(--gray);max-width:440px;line-height:1.9;margin-bottom:44px}
+.hero-actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:52px}
+.hero-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--border);border:1px solid var(--border)}
+.hstat{background:rgba(8,8,8,.92);padding:22px 26px}
+.hstat-n{font-family:'Cormorant Garamond',serif;font-size:38px;font-weight:400;color:var(--gold);line-height:1;margin-bottom:5px}
+.hstat-l{font-size:10px;color:var(--muted)}
+/* Hero right portrait */
+.hero-portrait{position:relative}
+.hero-portrait-frame{position:relative;overflow:hidden;border:1px solid var(--border)}
+.hero-portrait-frame img{width:100%;height:680px;object-fit:cover;object-position:center top;display:block}
+.hero-portrait-frame::after{content:'';position:absolute;bottom:0;left:0;right:0;height:50%;background:linear-gradient(to top,rgba(8,8,8,.92),transparent);z-index:1;pointer-events:none}
+.hero-portrait-frame::before{content:'';position:absolute;top:0;left:0;right:0;height:30%;background:linear-gradient(to bottom,rgba(8,8,8,.5),transparent);z-index:1;pointer-events:none}
+.portrait-tag{position:absolute;bottom:28px;left:28px;z-index:3;padding:16px 20px;background:rgba(8,8,8,.88);backdrop-filter:blur(12px);border:1px solid var(--border)}
+.ptag-n{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:400;color:var(--white);margin-bottom:4px}
+.ptag-r{font-size:10px;color:var(--gold);letter-spacing:.12em;text-transform:uppercase}
+.portrait-badge{position:absolute;top:24px;right:24px;z-index:3;width:90px;height:90px;background:var(--gold);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.pbadge-n{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:400;color:#080808;line-height:1}
+.pbadge-l{font-size:7.5px;font-weight:800;letter-spacing:.1em;color:rgba(8,8,8,.75);text-transform:uppercase;line-height:1.4;margin-top:3px}
+
+/* TICKER */
+.ticker{background:var(--gold);padding:14px 0;overflow:hidden}
+.ticker-track{display:flex;gap:64px;animation:scroll 30s linear infinite;white-space:nowrap;width:max-content}
+.tick-i{display:flex;align-items:center;gap:16px;font-size:10.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#080808}
+.tick-dot{width:4px;height:4px;background:rgba(8,8,8,.35);border-radius:50%;flex-shrink:0}
+@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ABOUT */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:90px;align-items:center}
+.about-img-wrap{position:relative}
+.about-img{position:relative;overflow:hidden;border:1px solid var(--border)}
+.about-img img{width:100%;height:620px;object-fit:cover;object-position:center top;display:block;transition:transform .6s ease}
+.about-img:hover img{transform:scale(1.03)}
+.about-img-overlay{position:absolute;bottom:0;left:0;right:0;height:48%;background:linear-gradient(to top,rgba(8,8,8,.95),transparent);z-index:1;pointer-events:none}
+.doc-caption{position:absolute;bottom:0;left:0;right:0;z-index:2;padding:28px}
+.dc-name{font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:400;color:var(--white);margin-bottom:4px}
+.dc-role{font-size:10.5px;color:var(--gold);letter-spacing:.12em;text-transform:uppercase;margin-bottom:12px}
+.dc-creds{display:flex;gap:7px;flex-wrap:wrap}
+.dcred{font-size:9px;font-weight:700;letter-spacing:.1em;color:var(--muted);padding:4px 10px;border:1px solid var(--border);text-transform:uppercase}
+.about-badge{position:absolute;top:32px;right:-20px;padding:22px 26px;background:var(--gold);color:#080808;z-index:3}
+.ab-n{font-family:'Cormorant Garamond',serif;font-size:46px;font-weight:400;line-height:1}
+.ab-l{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.aFeat-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:36px}
+.aFeat{padding:18px 20px;background:var(--bg3);border:1px solid var(--border)}
+.aFeat-ic{font-size:18px;margin-bottom:8px}
+.aFeat h4{font-family:'Cormorant Garamond',serif;font-size:17px;font-weight:400;margin-bottom:4px}
+.aFeat p{font-size:11.5px;color:var(--muted);line-height:1.65}
+
+/* TEAM */
+.team-hd{text-align:center;margin-bottom:52px}
+.team-hd .lbl{justify-content:center}
+.team-hd .sub{margin:0 auto;text-align:center}
+.team-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.tmCard{position:relative;overflow:hidden;border:1px solid var(--border);transition:border-color .3s}
+.tmCard:hover{border-color:rgba(201,168,101,.38)}
+.tmCard-img{position:relative;overflow:hidden}
+.tmCard-img img{width:100%;height:380px;object-fit:cover;object-position:center top;display:block;transition:transform .55s ease;filter:brightness(.88) saturate(.8)}
+.tmCard:hover .tmCard-img img{transform:scale(1.04);filter:brightness(1) saturate(1)}
+.tmCard-overlay{position:absolute;bottom:0;left:0;right:0;height:65%;background:linear-gradient(to top,rgba(8,8,8,.96),transparent);pointer-events:none}
+.tmCard-body{position:absolute;bottom:0;left:0;right:0;padding:20px 18px}
+.tmCard-name{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:400;color:var(--white);margin-bottom:3px}
+.tmCard-role{font-size:9.5px;color:var(--gold);letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px}
+.tmCard-creds{display:flex;gap:5px;flex-wrap:wrap}
+.tmcred{font-size:8.5px;padding:3px 8px;border:1px solid rgba(201,168,101,.3);color:var(--muted)}
+
+/* TREATMENTS */
+.treat-hdr{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:end;margin-bottom:48px}
+.treat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border)}
+.tcard{background:var(--bg3);overflow:hidden;position:relative;transition:background .3s}
+.tcard:hover{background:var(--bg4)}
+.tcard::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .35s ease}
+.tcard:hover::after{transform:scaleX(1)}
+.tcard-img{position:relative;overflow:hidden;height:190px}
+.tcard-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease;filter:brightness(.65) saturate(.7)}
+.tcard:hover .tcard-img img{transform:scale(1.06);filter:brightness(.85) saturate(.9)}
+.tcard-img-ov{position:absolute;inset:0;background:linear-gradient(to top,rgba(8,8,8,.85),rgba(8,8,8,.1))}
+.tcard-n-ov{position:absolute;bottom:12px;left:20px;font-family:'Cormorant Garamond',serif;font-size:52px;font-weight:300;color:rgba(201,168,101,.15);line-height:1}
+.tcard-body{padding:28px 28px 32px}
+.tcard-ic{width:38px;height:38px;border:1px solid var(--border);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;margin-bottom:14px;transition:all .3s}
+.tcard:hover .tcard-ic{border-color:var(--gold);background:var(--gold-dim)}
+.tcard h3{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:400;margin-bottom:9px}
+.tcard p{font-size:12.5px;color:var(--muted);line-height:1.78;margin-bottom:16px}
+.tcard-lnk{display:flex;align-items:center;gap:8px;font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);transition:gap .22s}
+.tcard:hover .tcard-lnk{gap:14px}
+
+/* BEFORE AFTER */
+.gal-hd{text-align:center;margin-bottom:52px}
+.gal-hd .lbl{justify-content:center}
+.gal-hd .sub{margin:0 auto;text-align:center}
+.comp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.comp-tabs{display:grid;grid-template-columns:1fr 1fr;gap:1px;margin-bottom:1px}
+.ctab{text-align:center;padding:8px 12px;font-size:9.5px;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+.ctab-b{background:var(--bg3);color:var(--muted)}
+.ctab-a{background:var(--gold);color:#080808}
+.comp-box{position:relative;width:100%;aspect-ratio:3/4;overflow:hidden;cursor:ew-resize;user-select:none;-webkit-user-select:none}
+.c-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;pointer-events:none;display:block}
+.c-before-img{clip-path:inset(0 50% 0 0);filter:grayscale(90%) brightness(.5) contrast(1.1);z-index:2}
+.c-after-img{z-index:1}
+.ba-lbl{position:absolute;z-index:8;bottom:18px;font-size:8.5px;font-weight:800;letter-spacing:.25em;text-transform:uppercase;padding:5px 14px;pointer-events:none}
+.ba-lbl-b{left:14px;background:rgba(0,0,0,.65);backdrop-filter:blur(6px);color:var(--gray);border:1px solid rgba(255,255,255,.1)}
+.ba-lbl-a{right:14px;background:var(--gold);color:#080808}
+.c-handle{position:absolute;top:0;bottom:0;left:50%;width:2px;background:rgba(255,255,255,.9);transform:translateX(-50%);z-index:10;pointer-events:none}
+.c-handle-btn{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:42px;height:42px;background:white;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#080808;font-size:15px;font-weight:900;box-shadow:0 4px 28px rgba(0,0,0,.6)}
+.comp-info{padding:14px 18px;background:var(--bg3);border:1px solid var(--border);border-top:none;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.ci-name{font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:400}
+.ci-detail{font-size:11px;color:var(--muted);margin-top:3px}
+.ci-tech{font-size:9.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);padding:4px 10px;border:1px solid var(--border);white-space:nowrap}
+.gal-note{text-align:center;margin-top:20px;font-size:11.5px;color:var(--muted);font-style:italic}
+.gal-cta{text-align:center;margin-top:36px}
+
+/* CLINIC GALLERY */
+.cgal-hd{text-align:center;margin-bottom:44px}
+.cgal-hd .lbl{justify-content:center}
+.cgal-hd .sub{margin:0 auto;text-align:center}
+.clinic-gal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}
+.cgal-item{position:relative;overflow:hidden;cursor:pointer}
+.cgal-item.large{grid-column:span 2}
+.cgal-item img{width:100%;height:260px;object-fit:cover;display:block;transition:transform .55s ease,filter .4s;filter:brightness(.78) saturate(.75)}
+.cgal-item.large img{height:380px}
+.cgal-item:hover img{transform:scale(1.05);filter:brightness(.95) saturate(1)}
+.cgal-overlay{position:absolute;inset:0;background:rgba(8,8,8,0);display:flex;align-items:flex-end;padding:18px;transition:background .3s;pointer-events:none}
+.cgal-item:hover .cgal-overlay{background:rgba(8,8,8,.32)}
+.cgal-lbl{font-size:9.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--white);opacity:0;transform:translateY(8px);transition:all .3s;text-shadow:0 2px 8px rgba(0,0,0,.9)}
+.cgal-item:hover .cgal-lbl{opacity:1;transform:translateY(0)}
+
+/* CERTIFICATIONS */
+.cert-bar{padding:38px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--bg2)}
+.cert-inner{display:flex;align-items:center;justify-content:center;gap:48px;flex-wrap:wrap}
+.cert-item{display:flex;flex-direction:column;align-items:center;gap:6px;opacity:.5;transition:opacity .25s;cursor:default}
+.cert-item:hover{opacity:1}
+.cert-logo{font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:500;color:var(--gold);letter-spacing:.08em}
+.cert-name{font-size:8.5px;font-weight:700;letter-spacing:.22em;color:var(--muted);text-transform:uppercase;white-space:nowrap}
+.cert-div{width:1px;height:36px;background:var(--border)}
+
+/* PROCESS */
+.proc-hd{text-align:center;margin-bottom:70px}
+.proc-hd .lbl{justify-content:center}
+.proc-hd .sub{margin:0 auto;text-align:center}
+.proc-steps{display:grid;grid-template-columns:repeat(4,1fr);position:relative}
+.proc-steps::before{content:'';position:absolute;top:27px;left:12.5%;right:12.5%;height:1px;background:linear-gradient(to right,transparent,var(--border) 20%,var(--gold) 50%,var(--border) 80%,transparent)}
+.pStep{padding:0 20px;text-align:center}
+.pCircle{width:54px;height:54px;border:1px solid var(--border);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 28px;background:var(--bg);font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:400;color:var(--gold);position:relative;z-index:1;transition:all .3s}
+.pStep:hover .pCircle{background:var(--gold);color:#080808;border-color:var(--gold);transform:scale(1.1)}
+.pStep h3{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:400;margin-bottom:12px}
+.pStep p{font-size:12.5px;color:var(--muted);line-height:1.78}
+
+/* WHY US */
+.why-hd{margin-bottom:50px}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border)}
+.wCard{background:var(--bg2);padding:44px 32px;transition:background .3s}
+.wCard:hover{background:var(--bg3)}
+.wCard-ic{font-size:28px;margin-bottom:18px}
+.wCard h3{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:400;margin-bottom:12px}
+.wCard p{font-size:13px;color:var(--muted);line-height:1.82}
+
+/* TESTIMONIALS */
+.testi-hd{text-align:center;margin-bottom:52px}
+.testi-hd .lbl{justify-content:center}
+.testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.testiCard{padding:34px;border:1px solid var(--border);background:var(--bg3);position:relative;overflow:hidden;transition:border-color .3s}
+.testiCard:hover{border-color:rgba(201,168,101,.38)}
+.testiCard::before{content:'"';position:absolute;top:8px;right:20px;font-family:'Cormorant Garamond',serif;font-size:120px;color:rgba(201,168,101,.05);line-height:1;pointer-events:none}
+.stars{display:flex;gap:3px;margin-bottom:18px}
+.stars span{color:var(--gold);font-size:13px}
+.tTxt{font-size:13.5px;line-height:1.92;color:var(--gray);margin-bottom:26px;font-style:italic}
+.tAuth{display:flex;align-items:center;gap:12px}
+.tAv{width:50px;height:50px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid var(--border)}
+.tAv img{width:100%;height:100%;object-fit:cover;display:block}
+.tName{font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:400}
+.tLoc{font-size:11px;color:var(--muted)}
+.rating-strip{display:flex;align-items:center;justify-content:center;gap:36px;margin-top:52px;flex-wrap:wrap;padding:32px;border:1px solid var(--border);background:var(--bg3)}
+.rItem{display:flex;flex-direction:column;align-items:center;gap:4px}
+.rStars{color:var(--gold);font-size:15px;letter-spacing:2px}
+.rNum{font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:400;color:var(--white);line-height:1}
+.rLbl{font-size:10.5px;color:var(--muted)}
+.rDiv{width:1px;height:52px;background:var(--border)}
+
+/* PRICING */
+.price-hd{text-align:center;margin-bottom:52px}
+.price-hd .lbl{justify-content:center}
+.price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.pCard{padding:44px 34px;border:1px solid var(--border);background:var(--bg3);position:relative;transition:transform .3s}
+.pCard:hover{transform:translateY(-5px)}
+.pCard.featured{border-color:var(--gold);background:var(--bg4)}
+.pCard.featured::before{content:'Most Popular';position:absolute;top:-1px;left:50%;transform:translateX(-50%);padding:6px 22px;background:var(--gold);color:#080808;font-size:9.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;white-space:nowrap}
+.pName{font-size:10px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
+.pPrice{font-family:'Cormorant Garamond',serif;font-size:50px;font-weight:300;line-height:1;margin-bottom:4px}
+.pPrice sup{font-size:20px;vertical-align:super}
+.pGrafts{font-size:11px;color:var(--muted);margin-bottom:28px}
+.pDiv{height:1px;background:var(--border);margin-bottom:28px}
+.pFeats{list-style:none;margin-bottom:36px}
+.pFeats li{display:flex;align-items:flex-start;gap:10px;font-size:13px;color:var(--gray);margin-bottom:12px}
+.pFeats li::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--gold);margin-top:8px;flex-shrink:0}
+.pBtn{display:block;text-align:center;padding:15px;font-family:'DM Sans',sans-serif;font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;transition:all .28s;border:none;cursor:pointer;width:100%}
+.pBtn-out{border:1px solid var(--border);color:var(--white);background:transparent}
+.pBtn-out:hover{border-color:var(--gold);color:var(--gold)}
+.pBtn-gold{background:var(--gold);color:#080808}
+.pBtn-gold:hover{background:var(--gold-l)}
+
+/* FAQ */
+.faq-wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:60px;align-items:start}
+.faq-list{display:flex;flex-direction:column;gap:1px}
+.fItem{background:var(--bg3);border:1px solid var(--border);overflow:hidden}
+.fQ{width:100%;padding:20px 26px;display:flex;align-items:center;justify-content:space-between;gap:14px;background:transparent;border:none;color:var(--white);font-family:'DM Sans',sans-serif;font-size:13.5px;font-weight:500;text-align:left;transition:color .2s;cursor:pointer}
+.fQ:hover,.fQ.active{color:var(--gold)}
+.fQ-ic{width:20px;height:20px;border:1px solid var(--border);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--muted);flex-shrink:0;transition:all .3s}
+.fQ.active .fQ-ic{background:var(--gold);border-color:var(--gold);color:#080808;transform:rotate(45deg)}
+.fA{max-height:0;overflow:hidden;transition:max-height .4s ease}
+.fA-in{padding:0 26px 20px;font-size:13px;color:var(--muted);line-height:1.88}
+.faq-side{padding:44px;background:var(--bg3);border:1px solid var(--border);position:sticky;top:100px}
+.faq-side h3{font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:300;margin-bottom:14px}
+.faq-side p{font-size:13px;color:var(--muted);line-height:1.88;margin-bottom:28px}
+.faq-div{height:1px;background:var(--border);margin:28px 0}
+.fci{display:flex;gap:12px;align-items:flex-start;margin-bottom:16px}
+.fci-icon{font-size:15px;color:var(--gold);margin-top:2px}
+.fci-val{font-size:13px;color:var(--gray)}
+.fci-lbl{font-size:9.5px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-bottom:2px}
+
+/* BLOG */
+.blog-hd{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:52px}
+.blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.bCard{background:var(--bg3);border:1px solid var(--border);overflow:hidden;transition:border-color .3s}
+.bCard:hover{border-color:rgba(201,168,101,.38)}
+.bImg{aspect-ratio:16/9;overflow:hidden}
+.bImg img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .45s ease,filter .35s;filter:brightness(.78) saturate(.78)}
+.bCard:hover .bImg img{transform:scale(1.05);filter:brightness(.96) saturate(1)}
+.bBody{padding:26px}
+.bCat{font-size:9.5px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+.bCard h3{font-family:'Cormorant Garamond',serif;font-size:19px;font-weight:400;line-height:1.3;margin-bottom:10px;transition:color .2s}
+.bCard:hover h3{color:var(--gold)}
+.bEx{font-size:12px;color:var(--muted);line-height:1.78;margin-bottom:18px}
+.bFoot{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--border);padding-top:14px}
+.bDate{font-size:10.5px;color:var(--muted)}
+.bRead{font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
+
+/* CONTACT */
+.contact-grid{display:grid;grid-template-columns:1fr 1.6fr;gap:80px;align-items:start}
+.contact-list{margin-top:36px;display:flex;flex-direction:column;gap:24px}
+.cItem{display:flex;gap:14px;align-items:flex-start}
+.cIco{width:42px;height:42px;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.cLbl{font-size:9.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.cVal{font-size:13.5px}
+.clinic-photo{margin-top:28px;overflow:hidden;border:1px solid var(--border)}
+.clinic-photo img{width:100%;height:210px;object-fit:cover;display:block;filter:brightness(.75) saturate(.8);transition:all .4s}
+.clinic-photo:hover img{filter:brightness(.92) saturate(1)}
+.hours-box{margin-top:24px;padding:24px;background:var(--bg3);border:1px solid var(--border)}
+.hours-box h4{font-size:10px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
+.hRow{display:flex;justify-content:space-between;font-size:12.5px;padding:9px 0;border-bottom:1px solid var(--border)}
+.hRow:last-child{border-bottom:none}
+.hRow .day{color:var(--gray)}.hRow .time{color:var(--white)}
+.cForm{background:var(--bg3);border:1px solid var(--border);padding:44px}
+.cForm h3{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:300;margin-bottom:6px}
+.cForm-sub{font-size:13px;color:var(--muted);margin-bottom:28px}
+.fRow{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.fGrp{display:flex;flex-direction:column;gap:7px;margin-bottom:18px}
+.fGrp label{font-size:9.5px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.fGrp input,.fGrp select,.fGrp textarea{padding:13px 15px;background:var(--bg);border:1px solid var(--border);color:var(--white);font-family:'DM Sans',sans-serif;font-size:13.5px;outline:none;transition:border-color .2s;-webkit-appearance:none}
+.fGrp input:focus,.fGrp select:focus,.fGrp textarea:focus{border-color:var(--gold)}
+.fGrp select option{background:#131313}
+.fGrp textarea{resize:vertical;min-height:110px}
+
+/* FOOTER */
+footer{background:#040404;border-top:1px solid var(--border)}
+.ft-top{padding:72px 0}
+.ft-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1.4fr;gap:52px}
+.ft-brand .logo-e{font-size:28px}
+.ft-brand p{font-size:12.5px;color:var(--muted);line-height:1.88;margin-top:14px;max-width:260px}
+.ft-soc{display:flex;gap:10px;margin-top:22px}
+.fsoc{width:34px;height:34px;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:var(--muted);transition:all .2s}
+.fsoc:hover{border-color:var(--gold);color:var(--gold)}
+.ft-col h4{font-size:9.5px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-bottom:22px}
+.ft-links{list-style:none;display:flex;flex-direction:column;gap:11px}
+.ft-links a{font-size:12.5px;color:var(--muted);transition:color .2s}
+.ft-links a:hover{color:var(--white)}
+.ft-nl p{font-size:12.5px;color:var(--muted);line-height:1.78;margin-bottom:14px}
+.ft-nl-form{display:flex;flex-direction:column;gap:10px}
+.ft-nl-form input{padding:12px 14px;background:var(--bg2);border:1px solid var(--border);color:var(--white);font-family:'DM Sans',sans-serif;font-size:12.5px;outline:none}
+.ft-nl-form input:focus{border-color:var(--gold)}
+.ft-bot{border-top:1px solid var(--border);padding:20px 0}
+.ft-bot-in{display:flex;align-items:center;justify-content:space-between;gap:14px}
+.ft-bot p{font-size:11.5px;color:var(--muted)}
+.ft-bot-links{display:flex;gap:22px}
+.ft-bot-links a{font-size:11.5px;color:var(--muted);transition:color .2s}
+.ft-bot-links a:hover{color:var(--white)}
+
+/* FLOAT & BACK TO TOP */
+.wa{position:fixed;bottom:28px;right:28px;z-index:998;display:flex;align-items:center;gap:10px;padding:13px 22px 13px 14px;background:#25D366;color:white;box-shadow:0 6px 28px rgba(37,211,102,.3);transition:all .3s;border-radius:2px}
+.wa:hover{transform:translateY(-3px);box-shadow:0 10px 36px rgba(37,211,102,.4)}
+.wa svg{width:20px;height:20px;fill:white;flex-shrink:0}
+.wa-t{font-size:11.5px;font-weight:700;letter-spacing:.04em;white-space:nowrap}
+.btt{position:fixed;bottom:88px;right:32px;z-index:997;width:40px;height:40px;background:var(--bg3);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:16px;opacity:0;pointer-events:none;transition:all .3s;cursor:pointer}
+.btt.show{opacity:1;pointer-events:all}
+.btt:hover{border-color:var(--gold);color:var(--gold)}
+
+/* REVEAL */
+.rv{opacity:0;transform:translateY(28px);transition:opacity .65s ease,transform .65s ease}
+.rv.vi{opacity:1;transform:translateY(0)}
+.d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}.d4{transition-delay:.4s}
+
+/* RESPONSIVE */
+@media(max-width:1200px){
+  .hero-content{grid-template-columns:1fr;gap:0;padding:140px 28px 60px}
+  .hero-portrait{display:none}
+  .hero-stats{grid-template-columns:repeat(4,1fr)}
+}
+@media(max-width:1024px){
+  .about-grid{grid-template-columns:1fr;gap:52px}
+  .about-img-wrap{max-width:440px;margin:0 auto}
+  .treat-hdr{grid-template-columns:1fr}
+  .treat-grid{grid-template-columns:1fr 1fr}
+  .comp-grid{grid-template-columns:1fr 1fr}
+  .proc-steps{grid-template-columns:1fr 1fr;gap:44px}
+  .proc-steps::before{display:none}
+  .why-grid{grid-template-columns:1fr 1fr}
+  .testi-grid{grid-template-columns:1fr 1fr}
+  .price-grid{grid-template-columns:1fr 1fr;gap:16px}
+  .faq-wrap{grid-template-columns:1fr}
+  .faq-side{position:static}
+  .blog-grid{grid-template-columns:1fr 1fr}
+  .contact-grid{grid-template-columns:1fr}
+  .ft-grid{grid-template-columns:1fr 1fr;gap:36px}
+  .team-grid{grid-template-columns:repeat(2,1fr)}
+  .clinic-gal-grid{grid-template-columns:repeat(2,1fr)}
+  .cgal-item.large{grid-column:span 1}
+  .cgal-item.large img{height:260px}
+}
+@media(max-width:768px){
+  .sec{padding:68px 0}
+  .nav-menu,.nav-book{display:none}
+  .hamburger{display:flex}
+  .hero h1{font-size:clamp(38px,9vw,56px)}
+  .hero-actions{flex-direction:column;align-items:flex-start}
+  .hero-stats{grid-template-columns:repeat(2,1fr)}
+  .treat-grid,.comp-grid,.why-grid,.testi-grid,.price-grid,.blog-grid{grid-template-columns:1fr}
+  .blog-hd{flex-direction:column;align-items:flex-start}
+  .ft-grid{grid-template-columns:1fr}
+  .ft-bot-in{flex-direction:column;text-align:center}
+  .fRow{grid-template-columns:1fr}
+  .wa-t{display:none}
+  .wa{padding:13px}
+  .btt{right:24px}
+  .aFeat-grid{grid-template-columns:1fr 1fr}
+  .rating-strip{gap:20px;flex-direction:column;align-items:flex-start}
+  .rDiv{display:none}
+  .cert-inner{gap:28px}
+  .team-grid{grid-template-columns:1fr 1fr;gap:12px}
+  .clinic-gal-grid{grid-template-columns:1fr 1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="mainNav">
+  <div class="nav-wrap">
+    <a href="#home" class="logo">
+      <div class="logo-e">ELITE</div>
+      <div class="logo-s">Hair Transplant Clinic</div>
+    </a>
+    <ul class="nav-menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#treatments">Treatments</a></li>
+      <li><a href="#gallery">Results</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-book">Free Consultation</a>
+    <button class="hamburger" id="ham" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="mob-overlay" id="mobMenu">
+  <a href="#about">About</a>
+  <a href="#team">Our Team</a>
+  <a href="#treatments">Treatments</a>
+  <a href="#gallery">Results</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#faq">FAQ</a>
+  <a href="#blog">Blog</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact" class="mob-book-btn">Book Free Consultation</a>
+</div>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-bg-img">
+    <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1920&q=80" alt="" loading="eager">
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-glow"></div><div class="hero-glow2"></div><div class="hero-vline"></div>
+  <div class="p" style="left:5%;top:15%;--d:5s;--dl:0s;--op:.7"></div>
+  <div class="p" style="left:12%;top:55%;--d:4s;--dl:.8s;--op:.5"></div>
+  <div class="p" style="left:22%;top:30%;--d:6s;--dl:1.2s;--op:.6"></div>
+  <div class="p" style="left:48%;top:20%;--d:5.5s;--dl:2s;--op:.5"></div>
+  <div class="p" style="left:61%;top:46%;--d:4s;--dl:.6s;--op:.7"></div>
+  <div class="p" style="left:73%;top:24%;--d:6s;--dl:1.5s;--op:.4"></div>
+  <div class="p" style="left:82%;top:65%;--d:5s;--dl:.2s;--op:.6"></div>
+  <div class="p" style="left:91%;top:35%;--d:4.5s;--dl:1.8s;--op:.5"></div>
+  <div class="p" style="left:15%;top:82%;--d:5.5s;--dl:.9s;--op:.3"></div>
+  <div class="p" style="left:55%;top:82%;--d:4s;--dl:1.1s;--op:.4"></div>
+  <div class="p" style="left:88%;top:78%;--d:6s;--dl:.4s;--op:.5"></div>
+  <div class="p" style="left:33%;top:68%;--d:5s;--dl:2.2s;--op:.3"></div>
+  <div class="p" style="left:67%;top:10%;--d:4.5s;--dl:.7s;--op:.6"></div>
+
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-badge rv">
+        <span class="hero-dot"></span>
+        Pakistan's Premier Hair Restoration Centre
+      </div>
+      <h1 class="rv d1">Reclaim Your<br><em>Confidence.</em><br>Restore Your Hair.</h1>
+      <p class="hero-sub rv d2">Elite Hair Transplant Clinic delivers world-class FUE, DHI and PRP treatments — guided by Pakistan's most experienced hair restoration surgeons since 2009.</p>
+      <div class="hero-actions rv d3">
+        <a href="#contact" class="btn btn-gold">Book Free Consultation
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#gallery" class="btn btn-outline">View Our Results</a>
+      </div>
+      <div class="hero-stats rv d4">
+        <div class="hstat"><div class="hstat-n">5,200+</div><div class="hstat-l">Procedures Done</div></div>
+        <div class="hstat"><div class="hstat-n">98.7%</div><div class="hstat-l">Success Rate</div></div>
+        <div class="hstat"><div class="hstat-n">15+</div><div class="hstat-l">Years Experience</div></div>
+        <div class="hstat"><div class="hstat-n">40+</div><div class="hstat-l">Countries Served</div></div>
+      </div>
+    </div>
+    <div class="hero-portrait rv d2">
+      <div class="hero-portrait-frame">
+        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=700&q=80" alt="Dr. Ahmed Raza Khan" loading="eager">
+        <div class="portrait-badge"><div class="pbadge-n">15+</div><div class="pbadge-l">Years of<br>Expertise</div></div>
+        <div class="portrait-tag">
+          <div class="ptag-n">Dr. Ahmed Raza Khan</div>
+          <div class="ptag-r">Lead Hair Restoration Surgeon</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-track">
+    <div class="tick-i"><span>FUE Hair Transplant</span><span class="tick-dot"></span></div>
+    <div class="tick-i"><span>DHI Technique</span><span class="tick-dot"></span></div>
+    <div class="tick-i"><span>PRP Therapy</span><span class="tick-dot"></span></div>
+    <div class="tick-i"><span>Beard Transplant</span><span class="tick-dot"></span></div>
+    <div class="tick-i"><span>Eyebrow Restoration</span><span class="tick-dot"></span></div>
+    <div class="tick-i"><span>Scalp Micropigmentation</span><span class="tick-dot"></span></div>
+    <div class="tick-i"><span>FUT Strip Method</span><span class="tick-dot"></span></div>
+    <div class="tick-i"><span>Hairline Design</span><span class="tick-dot"></span></div>
+    <div class="tick-i"><span>FUE Hair Transplant</span><span class="tick-dot"></span></div>
+    <div class="tick-i"><span>DHI Technique</span><span class="tick-dot"></span></div>
+    <div class="tick-i"><span>PRP Therapy</span><span class="tick-dot"></span></div>
+    <div class="tick-i"><span>Beard Transplant</span><span class="tick-dot"></span></div>
+    <div class="tick-i"><span>Eyebrow Restoration</span><span class="tick-dot"></span></div>
+    <div class="tick-i"><span>Scalp Micropigmentation</span><span class="tick-dot"></span></div>
+    <div class="tick-i"><span>FUT Strip Method</span><span class="tick-dot"></span></div>
+    <div class="tick-i"><span>Hairline Design</span><span class="tick-dot"></span></div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="sec">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-wrap rv">
+        <div class="about-img">
+          <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=800&q=80" alt="Dr. Ahmed Raza Khan, Lead Hair Restoration Surgeon" loading="lazy">
+          <div class="about-img-overlay"></div>
+          <div class="doc-caption">
+            <div class="dc-name">Dr. Ahmed Raza Khan</div>
+            <div class="dc-role">MBBS &middot; FCPS Dermatology &middot; Fellowship Hair Restoration Surgery</div>
+            <div class="dc-creds">
+              <span class="dcred">ISHRS</span><span class="dcred">ABHRS</span><span class="dcred">PMDC</span><span class="dcred">IAHRS</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-badge"><div class="ab-n">15+</div><div class="ab-l">Years of<br>Excellence</div></div>
+      </div>
+      <div class="rv d2">
+        <div class="lbl">About Elite Clinic</div>
+        <h2 class="heading">Where Precision<br>Meets <em style="font-style:italic;color:var(--gold)">Artistry</em></h2>
+        <p class="sub">Founded in 2009, Elite Hair Transplant Clinic has grown to become Pakistan's most trusted name in hair restoration. Our philosophy is simple: every patient deserves a permanent, natural-looking result that restores not just their hair &mdash; but their confidence.</p>
+        <p class="sub" style="margin-top:16px">Led by Dr. Ahmed Raza Khan, a fellowship-trained surgeon recognised by the International Society of Hair Restoration Surgery, we pair cutting-edge technology with an artistic eye for hairline design to deliver outcomes that exceed expectations every time.</p>
+        <div class="aFeat-grid">
+          <div class="aFeat rv d1"><div class="aFeat-ic">&#128300;</div><h4>Advanced Technology</h4><p>Sapphire FUE blades, DHI Choi implanters &amp; ARTAS AI graft analysis for minimal scarring</p></div>
+          <div class="aFeat rv d2"><div class="aFeat-ic">&#127942;</div><h4>Award Winning</h4><p>Internationally recognised by ISHRS &amp; 312 verified Google reviews averaging 4.9 stars</p></div>
+          <div class="aFeat rv d3"><div class="aFeat-ic">&#129516;</div><h4>Sterile Environment</h4><p>Hospital-grade sterilisation, single-use instruments, climate-controlled procedure suites</p></div>
+          <div class="aFeat rv d4"><div class="aFeat-ic">&#129309;</div><h4>Lifetime Support</h4><p>Aftercare at 1, 3, 6 &amp; 12 months plus direct WhatsApp access to your surgeon</p></div>
+        </div>
+        <div style="margin-top:32px"><a href="#contact" class="btn btn-gold">Book Your Consultation</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section id="team" class="sec sec-alt">
+  <div class="container">
+    <div class="team-hd rv">
+      <div class="lbl">Our Specialists</div>
+      <h2 class="heading">Meet the Experts Behind<br>Your Transformation</h2>
+      <p class="sub">Every member of our surgical team is a fellowship-trained specialist with a minimum of eight years dedicated experience in hair restoration surgery.</p>
+    </div>
+    <div class="team-grid">
+      <div class="tmCard rv">
+        <div class="tmCard-img">
+          <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=500&q=80" alt="Dr. Ahmed Raza Khan" loading="lazy">
+          <div class="tmCard-overlay"></div>
+        </div>
+        <div class="tmCard-body">
+          <div class="tmCard-name">Dr. Ahmed Raza Khan</div>
+          <div class="tmCard-role">Lead Surgeon &amp; Clinic Director</div>
+          <div class="tmCard-creds"><span class="tmcred">MBBS</span><span class="tmcred">FCPS</span><span class="tmcred">ISHRS</span></div>
+        </div>
+      </div>
+      <div class="tmCard rv d1">
+        <div class="tmCard-img">
+          <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=500&q=80" alt="Dr. Sara Malik" loading="lazy">
+          <div class="tmCard-overlay"></div>
+        </div>
+        <div class="tmCard-body">
+          <div class="tmCard-name">Dr. Sara Malik</div>
+          <div class="tmCard-role">Senior Dermatologist &amp; PRP Specialist</div>
+          <div class="tmCard-creds"><span class="tmcred">MBBS</span><span class="tmcred">PMDC</span><span class="tmcred">ABHRS</span></div>
+        </div>
+      </div>
+      <div class="tmCard rv d2">
+        <div class="tmCard-img">
+          <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=500&q=80" alt="Dr. Umar Farooq" loading="lazy">
+          <div class="tmCard-overlay"></div>
+        </div>
+        <div class="tmCard-body">
+          <div class="tmCard-name">Dr. Umar Farooq</div>
+          <div class="tmCard-role">DHI &amp; Beard Restoration Expert</div>
+          <div class="tmCard-creds"><span class="tmcred">FCPS</span><span class="tmcred">IAHRS</span><span class="tmcred">DHI Cert.</span></div>
+        </div>
+      </div>
+      <div class="tmCard rv d3">
+        <div class="tmCard-img">
+          <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=500&q=80" alt="Dr. Zara Hassan" loading="lazy">
+          <div class="tmCard-overlay"></div>
+        </div>
+        <div class="tmCard-body">
+          <div class="tmCard-name">Dr. Zara Hassan</div>
+          <div class="tmCard-role">Trichologist &amp; Scalp Specialist</div>
+          <div class="tmCard-creds"><span class="tmcred">MBBS</span><span class="tmcred">Trichology Cert.</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TREATMENTS -->
+<section id="treatments" class="sec">
+  <div class="container">
+    <div class="treat-hdr">
+      <div><div class="lbl">Our Services</div><h2 class="heading">Comprehensive Hair<br>Restoration Treatments</h2></div>
+      <p class="sub">From the latest FUE and DHI techniques to advanced PRP therapy &mdash; every treatment is tailored to your unique hair loss pattern, donor density and aesthetic goals.</p>
+    </div>
+    <div class="treat-grid">
+      <div class="tcard rv">
+        <div class="tcard-img">
+          <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80" alt="FUE Hair Transplant" loading="lazy">
+          <div class="tcard-img-ov"></div><div class="tcard-n-ov">01</div>
+        </div>
+        <div class="tcard-body">
+          <div class="tcard-ic">&#128142;</div>
+          <h3>FUE Hair Transplant</h3>
+          <p>The gold standard procedure. Individual follicular units extracted from the donor zone and implanted with sub-millimetre precision &mdash; no linear scar, completely natural results.</p>
+          <a href="#contact" class="tcard-lnk">Learn More &#8594;</a>
+        </div>
+      </div>
+      <div class="tcard rv d1">
+        <div class="tcard-img">
+          <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=80" alt="DHI Direct Implant" loading="lazy">
+          <div class="tcard-img-ov"></div><div class="tcard-n-ov">02</div>
+        </div>
+        <div class="tcard-body">
+          <div class="tcard-ic">&#9889;</div>
+          <h3>DHI Direct Implant</h3>
+          <p>Choi pen technology enables simultaneous extraction and placement &mdash; no pre-made channels. Higher graft density, faster healing and more natural hairline direction versus standard FUE.</p>
+          <a href="#contact" class="tcard-lnk">Learn More &#8594;</a>
+        </div>
+      </div>
+      <div class="tcard rv d2">
+        <div class="tcard-img">
+          <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=600&q=80" alt="PRP Hair Therapy" loading="lazy">
+          <div class="tcard-img-ov"></div><div class="tcard-n-ov">03</div>
+        </div>
+        <div class="tcard-body">
+          <div class="tcard-ic">&#129514;</div>
+          <h3>PRP Hair Therapy</h3>
+          <p>Platelet-Rich Plasma therapy uses your own concentrated growth factors to reawaken dormant follicles, strengthen existing hair and significantly accelerate post-transplant graft survival rates.</p>
+          <a href="#contact" class="tcard-lnk">Learn More &#8594;</a>
+        </div>
+      </div>
+      <div class="tcard rv">
+        <div class="tcard-img">
+          <img src="https://images.unsplash.com/photo-1576671081837-49000212a370?auto=format&fit=crop&w=600&q=80" alt="FUT Strip Method" loading="lazy">
+          <div class="tcard-img-ov"></div><div class="tcard-n-ov">04</div>
+        </div>
+        <div class="tcard-body">
+          <div class="tcard-ic">&#9986;</div>
+          <h3>FUT Strip Method</h3>
+          <p>Follicular Unit Transplantation enables the highest graft yield in a single session &mdash; the optimal choice for patients with extensive hair loss (Norwood VI&ndash;VII) requiring maximum coverage.</p>
+          <a href="#contact" class="tcard-lnk">Learn More &#8594;</a>
+        </div>
+      </div>
+      <div class="tcard rv d1">
+        <div class="tcard-img">
+          <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=600&q=80" alt="Beard Transplant" loading="lazy">
+          <div class="tcard-img-ov"></div><div class="tcard-n-ov">05</div>
+        </div>
+        <div class="tcard-body">
+          <div class="tcard-ic">&#129492;</div>
+          <h3>Beard Transplant</h3>
+          <p>Restore density to patchy beards and moustaches with single-follicle FUE grafts placed at the precise angle of natural beard growth &mdash; producing a dense, masculine, permanent result.</p>
+          <a href="#contact" class="tcard-lnk">Learn More &#8594;</a>
+        </div>
+      </div>
+      <div class="tcard rv d2">
+        <div class="tcard-img">
+          <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=600&q=80" alt="Eyebrow Restoration" loading="lazy">
+          <div class="tcard-img-ov"></div><div class="tcard-n-ov">06</div>
+        </div>
+        <div class="tcard-body">
+          <div class="tcard-ic">&#10024;</div>
+          <h3>Eyebrow Restoration</h3>
+          <p>Meticulously restore sparse or over-plucked eyebrows using individual FUE grafts designed to respect your natural brow architecture and facial symmetry &mdash; a seamless, permanent finish.</p>
+          <a href="#contact" class="tcard-lnk">Learn More &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BEFORE / AFTER -->
+<section id="gallery" class="sec sec-alt">
+  <div class="container">
+    <div class="gal-hd">
+      <div class="lbl">Real Patient Results</div>
+      <h2 class="heading">Transformations That<br>Speak for Themselves</h2>
+      <p class="sub">Drag the handle on each panel to reveal the before and after. Every case shown is performed at our clinic &mdash; verified and unedited.</p>
+    </div>
+    <div class="comp-grid">
+      <div class="rv">
+        <div class="comp-tabs"><div class="ctab ctab-b">Before</div><div class="ctab ctab-a">After &middot; FUE</div></div>
+        <div class="comp-box">
+          <img class="c-img c-after-img" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80" alt="After FUE Hair Transplant" loading="lazy">
+          <img class="c-img c-before-img" src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?auto=format&fit=crop&w=600&q=80" alt="Before FUE Hair Transplant" loading="lazy">
+          <span class="ba-lbl ba-lbl-b">Before</span><span class="ba-lbl ba-lbl-a">After</span>
+          <div class="c-handle"><div class="c-handle-btn">&#8660;</div></div>
+        </div>
+        <div class="comp-info">
+          <div><div class="ci-name">Patient: Omar S., Age 34</div><div class="ci-detail">3,200 Grafts &middot; Result at 12 months</div></div>
+          <div class="ci-tech">FUE</div>
+        </div>
+      </div>
+      <div class="rv d2">
+        <div class="comp-tabs"><div class="ctab ctab-b">Before</div><div class="ctab ctab-a">After &middot; DHI</div></div>
+        <div class="comp-box">
+          <img class="c-img c-after-img" src="https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=600&q=80" alt="After DHI Hair Transplant" loading="lazy">
+          <img class="c-img c-before-img" src="https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=600&q=80" alt="Before DHI Hair Transplant" loading="lazy">
+          <span class="ba-lbl ba-lbl-b">Before</span><span class="ba-lbl ba-lbl-a">After</span>
+          <div class="c-handle"><div class="c-handle-btn">&#8660;</div></div>
+        </div>
+        <div class="comp-info">
+          <div><div class="ci-name">Patient: Bilal K., Age 41</div><div class="ci-detail">4,800 Grafts &middot; Result at 14 months</div></div>
+          <div class="ci-tech">DHI</div>
+        </div>
+      </div>
+      <div class="rv d4">
+        <div class="comp-tabs"><div class="ctab ctab-b">Before</div><div class="ctab ctab-a">After &middot; Beard</div></div>
+        <div class="comp-box">
+          <img class="c-img c-after-img" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=600&q=80" alt="After Beard Transplant" loading="lazy">
+          <img class="c-img c-before-img" src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?auto=format&fit=crop&w=600&q=80" alt="Before Beard Transplant" loading="lazy">
+          <span class="ba-lbl ba-lbl-b">Before</span><span class="ba-lbl ba-lbl-a">After</span>
+          <div class="c-handle"><div class="c-handle-btn">&#8660;</div></div>
+        </div>
+        <div class="comp-info">
+          <div><div class="ci-name">Patient: Hassan M., Age 28</div><div class="ci-detail">1,600 Grafts &middot; Result at 10 months</div></div>
+          <div class="ci-tech">Beard FUE</div>
+        </div>
+      </div>
+    </div>
+    <p class="gal-note">*Images are illustrative representations for demo purposes. Real verified patient photos available on consultation request.</p>
+    <div class="gal-cta rv"><a href="#contact" class="btn btn-outline">Request Full Patient Gallery &#8594;</a></div>
+  </div>
+</section>
+
+<!-- CLINIC GALLERY -->
+<section class="sec">
+  <div class="container">
+    <div class="cgal-hd rv">
+      <div class="lbl">Our Clinic</div>
+      <h2 class="heading">A World-Class Facility<br>Designed for Your Comfort</h2>
+      <p class="sub">Hospital-grade procedure suites, state-of-the-art equipment and a calm, luxurious environment &mdash; because the experience matters as much as the result.</p>
+    </div>
+    <div class="clinic-gal-grid">
+      <div class="cgal-item large rv">
+        <img src="https://images.unsplash.com/photo-1629909615192-4b9df8a534b0?auto=format&fit=crop&w=900&q=80" alt="Elite clinic reception" loading="lazy">
+        <div class="cgal-overlay"><span class="cgal-lbl">Reception &amp; Lobby</span></div>
+      </div>
+      <div class="cgal-item rv d1">
+        <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=600&q=80" alt="Sterile procedure suite" loading="lazy">
+        <div class="cgal-overlay"><span class="cgal-lbl">Procedure Suite</span></div>
+      </div>
+      <div class="cgal-item rv d2">
+        <img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=600&q=80" alt="Advanced medical equipment" loading="lazy">
+        <div class="cgal-overlay"><span class="cgal-lbl">Advanced Equipment</span></div>
+      </div>
+      <div class="cgal-item rv d1">
+        <img src="https://images.unsplash.com/photo-1584467541268-b040f83be3fd?auto=format&fit=crop&w=600&q=80" alt="Graft preparation lab" loading="lazy">
+        <div class="cgal-overlay"><span class="cgal-lbl">Graft Preparation Lab</span></div>
+      </div>
+      <div class="cgal-item rv d2">
+        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=600&q=80" alt="Consultation room" loading="lazy">
+        <div class="cgal-overlay"><span class="cgal-lbl">Consultation Room</span></div>
+      </div>
+      <div class="cgal-item rv d3">
+        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=600&q=80" alt="Recovery suite" loading="lazy">
+        <div class="cgal-overlay"><span class="cgal-lbl">Recovery Suite</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<div class="cert-bar">
+  <div class="container">
+    <div class="cert-inner">
+      <div class="cert-item"><div class="cert-logo">ISHRS</div><div class="cert-name">Int'l Society of Hair Restoration Surgery</div></div>
+      <div class="cert-div"></div>
+      <div class="cert-item"><div class="cert-logo">ABHRS</div><div class="cert-name">American Board of Hair Restoration Surgery</div></div>
+      <div class="cert-div"></div>
+      <div class="cert-item"><div class="cert-logo">PMDC</div><div class="cert-name">Pakistan Medical &amp; Dental Council</div></div>
+      <div class="cert-div"></div>
+      <div class="cert-item"><div class="cert-logo">IAHRS</div><div class="cert-name">Int'l Alliance of Hair Restoration Surgeons</div></div>
+      <div class="cert-div"></div>
+      <div class="cert-item"><div class="cert-logo">DHI</div><div class="cert-name">Direct Hair Implantation Certified</div></div>
+      <div class="cert-div"></div>
+      <div class="cert-item"><div class="cert-logo">ISO</div><div class="cert-name">ISO 9001:2015 Quality Certified</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- PROCESS -->
+<section class="sec sec-alt">
+  <div class="container">
+    <div class="proc-hd">
+      <div class="lbl">How It Works</div>
+      <h2 class="heading">Your Journey to<br>Full Hair Restoration</h2>
+      <p class="sub">A seamless, supported experience from your very first call to your final follow-up.</p>
+    </div>
+    <div class="proc-steps">
+      <div class="pStep rv"><div class="pCircle">1</div><h3>Free Consultation</h3><p>In-clinic or secure video call. We assess your hair loss stage, donor zone and discuss your goals before recommending the ideal treatment plan.</p></div>
+      <div class="pStep rv d1"><div class="pCircle">2</div><h3>Hair Analysis</h3><p>Detailed trichoscopy and donor mapping determines graft availability. Dr. Khan hand-draws your new hairline customised to your facial structure.</p></div>
+      <div class="pStep rv d2"><div class="pCircle">3</div><h3>Procedure Day</h3><p>Performed under local anaesthesia in our hospital-grade suite. Painless, lasting 6&ndash;8 hours with meals and entertainment provided throughout.</p></div>
+      <div class="pStep rv d3"><div class="pCircle">4</div><h3>Growth &amp; Results</h3><p>New growth at 3&ndash;4 months. Significant density by 6&ndash;8 months. Full permanent result between 12 and 14 months &mdash; lasting a lifetime.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="sec">
+  <div class="container">
+    <div class="why-hd rv">
+      <div class="lbl">Why Elite</div>
+      <h2 class="heading" style="max-width:520px">The Standard Others<br>Are Measured Against</h2>
+    </div>
+    <div class="why-grid">
+      <div class="wCard rv"><div class="wCard-ic">&#127919;</div><h3>Artistic Hairline Design</h3><p>Every hairline is hand-drawn by Dr. Khan before the procedure, accounting for facial structure, age, natural hair direction and long-term hair loss progression.</p></div>
+      <div class="wCard rv d1"><div class="wCard-ic">&#128300;</div><h3>Zero-Tolerance Sterility</h3><p>Fully climate-controlled suites, single-use instruments throughout, and ISHRS sterilisation standards. Your safety is never an area where we compromise.</p></div>
+      <div class="wCard rv d2"><div class="wCard-ic">&#128161;</div><h3>Latest Technology</h3><p>Sapphire FUE blades, Choi DHI implanters, LED-magnified stereoscopic microscopy and ARTAS AI graft analysis for superior precision and outcomes.</p></div>
+      <div class="wCard rv"><div class="wCard-ic">&#128203;</div><h3>Transparent Pricing</h3><p>No hidden fees. Your quoted price includes the full procedure, medications, aftercare kit, and every scheduled follow-up &mdash; documented in writing.</p></div>
+      <div class="wCard rv d1"><div class="wCard-ic">&#127757;</div><h3>International Patients Welcome</h3><p>We serve patients from 40+ countries with hotel bookings, airport transfers and a full concierge experience &mdash; making your medical trip seamless.</p></div>
+      <div class="wCard rv d2"><div class="wCard-ic">&#9854;</div><h3>Lifetime Follow-Up</h3><p>Aftercare consultations at 1, 3, 6 and 12 months plus direct WhatsApp access to Dr. Khan's team for any concern that arises at any time.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="sec sec-alt">
+  <div class="container">
+    <div class="testi-hd">
+      <div class="lbl">Patient Stories</div>
+      <h2 class="heading">Voices of Transformation</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testiCard rv">
+        <div class="stars"><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span></div>
+        <p class="tTxt">"I had lost hope after years of trying every product imaginable. Dr. Khan's team gave me a hairline I thought I would never see again. The result at 12 months is beyond anything I expected &mdash; completely natural, completely permanent."</p>
+        <div class="tAuth">
+          <div class="tAv"><img src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=100&q=80" alt="Arjun Mehta" loading="lazy"></div>
+          <div><div class="tName">Arjun Mehta</div><div class="tLoc">Dubai, UAE &middot; FUE 3,400 Grafts</div></div>
+        </div>
+      </div>
+      <div class="testiCard rv d2">
+        <div class="stars"><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span></div>
+        <p class="tTxt">"From the very first consultation, the professionalism was on another level entirely. The clinic is immaculate, the team is warm and honest, and the results speak for themselves. Worth every single rupee &mdash; and then some."</p>
+        <div class="tAuth">
+          <div class="tAv"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80" alt="Zainab Qureshi" loading="lazy"></div>
+          <div><div class="tName">Zainab Qureshi</div><div class="tLoc">Lahore, PK &middot; PRP + FUE Combo</div></div>
+        </div>
+      </div>
+      <div class="testiCard rv d4">
+        <div class="stars"><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span></div>
+        <p class="tTxt">"I flew from London specifically to Elite after researching clinics all over the world. The price-to-quality ratio is unmatched anywhere. My UK-based friends cannot believe I had it done in Pakistan &mdash; that says everything."</p>
+        <div class="tAuth">
+          <div class="tAv"><img src="https://images.unsplash.com/photo-1506003094589-53954a26283f?auto=format&fit=crop&w=100&q=80" alt="Kamran Siddiqui" loading="lazy"></div>
+          <div><div class="tName">Kamran Siddiqui</div><div class="tLoc">London, UK &middot; DHI 4,200 Grafts</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="rating-strip rv">
+      <div class="rItem"><div class="rStars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="rNum">4.9<span style="font-size:16px;color:var(--muted)">/5</span></div><div class="rLbl">312 Google Reviews</div></div>
+      <div class="rDiv"></div>
+      <div class="rItem"><div class="rStars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="rNum">4.8<span style="font-size:16px;color:var(--muted)">/5</span></div><div class="rLbl">ISHRS Verified Clinic</div></div>
+      <div class="rDiv"></div>
+      <div class="rItem"><div class="rStars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="rNum">5,200<span style="font-size:16px;color:var(--muted)">+</span></div><div class="rLbl">Successful Procedures</div></div>
+      <div class="rDiv"></div>
+      <div class="rItem"><div class="rStars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="rNum">98.7<span style="font-size:16px;color:var(--muted)">%</span></div><div class="rLbl">Overall Success Rate</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="sec">
+  <div class="container">
+    <div class="price-hd">
+      <div class="lbl">Investment</div>
+      <h2 class="heading">Transparent Pricing &mdash; No Surprises</h2>
+      <p class="sub" style="margin:0 auto;text-align:center">All packages include consultation, procedure, medications, aftercare kit and 12-month follow-ups. The price you see is the price you pay.</p>
+    </div>
+    <div class="price-grid">
+      <div class="pCard rv">
+        <div class="pName">Standard</div>
+        <div class="pPrice"><sup>PKR </sup>95,000</div>
+        <div class="pGrafts">Up to 2,000 Grafts &middot; FUE Technique</div>
+        <div class="pDiv"></div>
+        <ul class="pFeats">
+          <li>Pre-op hair &amp; scalp analysis</li>
+          <li>FUE procedure (up to 2,000 grafts)</li>
+          <li>Local anaesthesia included</li>
+          <li>Post-op care &amp; aftercare kit</li>
+          <li>3-month follow-up consultation</li>
+          <li>WhatsApp aftercare support</li>
+        </ul>
+        <button class="pBtn pBtn-out" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Book Consultation</button>
+      </div>
+      <div class="pCard featured rv d2">
+        <div class="pName">Premium</div>
+        <div class="pPrice"><sup>PKR </sup>185,000</div>
+        <div class="pGrafts">Up to 4,000 Grafts &middot; FUE or DHI</div>
+        <div class="pDiv"></div>
+        <ul class="pFeats">
+          <li>Full trichoscopy &amp; donor mapping</li>
+          <li>FUE or DHI (up to 4,000 grafts)</li>
+          <li>Sapphire blade technique</li>
+          <li>One PRP therapy session included</li>
+          <li>Premium aftercare kit</li>
+          <li>6-month follow-up programme</li>
+          <li>Priority WhatsApp line to surgeon</li>
+        </ul>
+        <button class="pBtn pBtn-gold" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Book Consultation</button>
+      </div>
+      <div class="pCard rv d4">
+        <div class="pName">Elite</div>
+        <div class="pPrice"><sup>PKR </sup>310,000</div>
+        <div class="pGrafts">5,000+ Grafts &middot; DHI Mega Session</div>
+        <div class="pDiv"></div>
+        <ul class="pFeats">
+          <li>HD trichoscopy &amp; AI graft analysis</li>
+          <li>DHI mega session (5,000+ grafts)</li>
+          <li>ARTAS robotic FUE option</li>
+          <li>3x PRP therapy sessions</li>
+          <li>Custom hairline design session</li>
+          <li>12-month VIP follow-up programme</li>
+          <li>Concierge hotel &amp; airport transfer</li>
+          <li>Lifetime growth guarantee*</li>
+        </ul>
+        <button class="pBtn pBtn-out" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Book Consultation</button>
+      </div>
+    </div>
+    <p style="text-align:center;font-size:11px;color:var(--muted);margin-top:22px">*Lifetime guarantee subject to eligibility terms. International patients &mdash; contact us for USD/GBP pricing.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="sec sec-alt">
+  <div class="container">
+    <div class="lbl rv">Frequently Asked</div>
+    <h2 class="heading rv d1" style="margin-bottom:52px">Questions &amp; Answers</h2>
+    <div class="faq-wrap">
+      <div class="faq-list">
+        <div class="fItem"><button class="fQ">Is a hair transplant painful?<span class="fQ-ic">+</span></button><div class="fA"><div class="fA-in">The procedure is performed entirely under local anaesthesia &mdash; you will feel only mild pressure, never pain. A light oral sedative is available on request. Post-procedure discomfort is mild and resolves within 48&ndash;72 hours.</div></div></div>
+        <div class="fItem"><button class="fQ">How long does the procedure take?<span class="fQ-ic">+</span></button><div class="fA"><div class="fA-in">A standard FUE session of 2,000&ndash;3,000 grafts takes approximately 6&ndash;7 hours. Larger DHI mega sessions may take 8&ndash;10 hours. You will be comfortably reclined with meals and entertainment provided throughout the day.</div></div></div>
+        <div class="fItem"><button class="fQ">When will I see results?<span class="fQ-ic">+</span></button><div class="fA"><div class="fA-in">Transplanted hairs shed within the first 2&ndash;4 weeks &mdash; this is completely normal. New growth begins at months 3&ndash;4. Noticeable density appears by months 6&ndash;8. Your full permanent result is achieved between 12 and 14 months post-procedure.</div></div></div>
+        <div class="fItem"><button class="fQ">Is a hair transplant permanent?<span class="fQ-ic">+</span></button><div class="fA"><div class="fA-in">Yes &mdash; it is the only genuinely permanent solution to hair loss. Grafts are extracted from the DHT-resistant donor zone meaning they are genetically programmed to grow for life regardless of where they are transplanted.</div></div></div>
+        <div class="fItem"><button class="fQ">What is the recovery period?<span class="fQ-ic">+</span></button><div class="fA"><div class="fA-in">Most patients return to desk-based work within 3&ndash;5 days. Visible redness and small crusts resolve within 10&ndash;14 days. Strenuous exercise and swimming should be avoided for 3 weeks post-procedure.</div></div></div>
+        <div class="fItem"><button class="fQ">Who is not a suitable candidate?<span class="fQ-ic">+</span></button><div class="fA"><div class="fA-in">Patients with insufficient donor density, certain autoimmune conditions, active scalp infections, or uncontrolled diabetes may not be suitable. Our pre-assessment process identifies candidacy accurately. We will never operate where risk outweighs benefit.</div></div></div>
+        <div class="fItem"><button class="fQ">What is the difference between FUE and DHI?<span class="fQ-ic">+</span></button><div class="fA"><div class="fA-in">FUE involves extracting grafts and creating recipient channels separately. DHI uses a Choi implanter pen to simultaneously extract and implant &mdash; enabling higher density, faster healing and more precise angle control. Dr. Khan recommends the best option based on your individual case.</div></div></div>
+        <div class="fItem"><button class="fQ">Do you offer financing or instalment plans?<span class="fQ-ic">+</span></button><div class="fA"><div class="fA-in">Yes. We partner with leading Pakistani banks to offer 0% markup instalment plans for eligible patients, typically payable over 6 to 18 months &mdash; with full transparency and no hidden charges.</div></div></div>
+      </div>
+      <div class="faq-side rv d2">
+        <h3>Still Have a Question?</h3>
+        <p>Our patient advisors are available 7 days a week &mdash; by phone, WhatsApp or email. Get an honest, pressure-free assessment at no cost.</p>
+        <a href="#contact" class="btn btn-gold" style="width:100%;justify-content:center">Book Free Consultation</a>
+        <div class="faq-div"></div>
+        <div class="fci"><span class="fci-icon">&#128222;</span><div><div class="fci-lbl">Phone</div><div class="fci-val">+92 300 123 4567</div></div></div>
+        <div class="fci"><span class="fci-icon">&#128172;</span><div><div class="fci-lbl">WhatsApp</div><div class="fci-val">+92 300 123 4567</div></div></div>
+        <div class="fci"><span class="fci-icon">&#128231;</span><div><div class="fci-lbl">Email</div><div class="fci-val">info@elitehairclinic.pk</div></div></div>
+        <div class="fci"><span class="fci-icon">&#128205;</span><div><div class="fci-lbl">Location</div><div class="fci-val">12-B Main Boulevard, Gulberg III, Lahore</div></div></div>
+        <div class="faq-div"></div>
+        <div style="padding:20px;background:var(--gold-dim);border:1px solid var(--border)">
+          <div style="font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:8px">Clinic Hours</div>
+          <div style="font-size:12.5px;color:var(--gray);line-height:2">Mon &ndash; Thu &nbsp;&nbsp; 9:00 AM &ndash; 7:00 PM<br>Friday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9:00 AM &ndash; 1:00 PM<br>Saturday &nbsp;&nbsp;&nbsp; 10:00 AM &ndash; 5:00 PM<br><span style="color:var(--muted)">Sunday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Closed</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section id="blog" class="sec">
+  <div class="container">
+    <div class="blog-hd">
+      <div><div class="lbl">Knowledge Centre</div><h2 class="heading" style="margin-bottom:0">Expert Insights &amp;<br>Patient Guides</h2></div>
+      <a href="#" class="btn btn-outline" style="flex-shrink:0">View All Articles</a>
+    </div>
+    <div class="blog-grid">
+      <div class="bCard rv">
+        <div class="bImg"><img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=700&q=80" alt="FUE vs DHI article" loading="lazy"></div>
+        <div class="bBody">
+          <div class="bCat">Treatment Guide</div>
+          <h3>FUE vs DHI: Which Technique Is Right for You?</h3>
+          <p class="bEx">A thorough breakdown of both techniques &mdash; mechanics, recovery times, ideal candidates and long-term outcomes &mdash; to help you make a genuinely informed decision.</p>
+          <div class="bFoot"><span class="bDate">June 12, 2025</span><a href="#" class="bRead">Read More &#8594;</a></div>
+        </div>
+      </div>
+      <div class="bCard rv d2">
+        <div class="bImg"><img src="https://images.unsplash.com/photo-1576671081837-49000212a370?auto=format&fit=crop&w=700&q=80" alt="PRP therapy science article" loading="lazy"></div>
+        <div class="bBody">
+          <div class="bCat">Hair Loss Science</div>
+          <h3>PRP Therapy: What the Research Actually Shows</h3>
+          <p class="bEx">Platelet-Rich Plasma has transformed post-transplant recovery. We break down the clinical science and separate verified fact from marketing claims.</p>
+          <div class="bFoot"><span class="bDate">May 28, 2025</span><a href="#" class="bRead">Read More &#8594;</a></div>
+        </div>
+      </div>
+      <div class="bCard rv d4">
+        <div class="bImg"><img src="https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=700&q=80" alt="After hair transplant guide" loading="lazy"></div>
+        <div class="bBody">
+          <div class="bCat">Patient Guide</div>
+          <h3>Your First Month After a Hair Transplant: Day by Day</h3>
+          <p class="bEx">Day-by-day guidance on caring for your transplanted grafts during the critical first four weeks &mdash; washing protocol, sleep position and exercise explained.</p>
+          <div class="bFoot"><span class="bDate">April 15, 2025</span><a href="#" class="bRead">Read More &#8594;</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="sec sec-alt">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="rv">
+        <div class="lbl">Get In Touch</div>
+        <h2 class="heading">Book Your Free<br>Consultation</h2>
+        <p class="sub">Take the first step. Our team will assess your case, answer every question honestly, and create a personalised treatment plan &mdash; at no cost and no obligation.</p>
+        <div class="contact-list">
+          <div class="cItem"><div class="cIco">&#128205;</div><div><div class="cLbl">Address</div><div class="cVal">12-B Main Boulevard, Gulberg III, Lahore, Pakistan</div></div></div>
+          <div class="cItem"><div class="cIco">&#128222;</div><div><div class="cLbl">Phone</div><div class="cVal">+92 300 123 4567</div></div></div>
+          <div class="cItem"><div class="cIco">&#128231;</div><div><div class="cLbl">Email</div><div class="cVal">info@elitehairclinic.pk</div></div></div>
+          <div class="cItem"><div class="cIco">&#128172;</div><div><div class="cLbl">WhatsApp (Fastest)</div><div class="cVal">+92 300 123 4567</div></div></div>
+        </div>
+        <div class="clinic-photo">
+          <img src="https://images.unsplash.com/photo-1629909615192-4b9df8a534b0?auto=format&fit=crop&w=700&q=80" alt="Elite Hair Transplant Clinic exterior" loading="lazy">
+        </div>
+        <div class="hours-box">
+          <h4>Consultation Hours</h4>
+          <div class="hRow"><span class="day">Monday &ndash; Thursday</span><span class="time">9:00 AM &ndash; 7:00 PM</span></div>
+          <div class="hRow"><span class="day">Friday</span><span class="time">9:00 AM &ndash; 1:00 PM</span></div>
+          <div class="hRow"><span class="day">Saturday</span><span class="time">10:00 AM &ndash; 5:00 PM</span></div>
+          <div class="hRow"><span class="day">Sunday</span><span class="time" style="color:var(--muted)">Closed</span></div>
+        </div>
+      </div>
+      <div class="cForm rv d2">
+        <h3>Request a Consultation</h3>
+        <p class="cForm-sub">Fill in your details &mdash; we respond within 2 hours.</p>
+        <div class="fRow">
+          <div class="fGrp"><label>First Name</label><input type="text" placeholder="Ahmed"></div>
+          <div class="fGrp"><label>Last Name</label><input type="text" placeholder="Khan"></div>
+        </div>
+        <div class="fRow">
+          <div class="fGrp"><label>Phone / WhatsApp</label><input type="tel" placeholder="+92 300 000 0000"></div>
+          <div class="fGrp"><label>Email Address</label><input type="email" placeholder="your@email.com"></div>
+        </div>
+        <div class="fGrp">
+          <label>Hair Loss Stage</label>
+          <select>
+            <option value="" disabled selected>Select your Norwood stage...</option>
+            <option>Stage I &ndash; II (Early thinning)</option>
+            <option>Stage III (Moderate recession)</option>
+            <option>Stage IV (Visible baldness)</option>
+            <option>Stage V &ndash; VI (Advanced hair loss)</option>
+            <option>Stage VII (Severe / extensive)</option>
+            <option>Beard or Eyebrow concern</option>
+            <option>Not sure &mdash; I need an assessment</option>
+          </select>
+        </div>
+        <div class="fGrp">
+          <label>Treatment of Interest</label>
+          <select>
+            <option value="" disabled selected>Select a treatment...</option>
+            <option>FUE Hair Transplant</option>
+            <option>DHI Hair Transplant</option>
+            <option>PRP Hair Therapy</option>
+            <option>FUT Strip Method</option>
+            <option>Beard Transplant</option>
+            <option>Eyebrow Restoration</option>
+            <option>Not sure &mdash; please advise me</option>
+          </select>
+        </div>
+        <div class="fGrp">
+          <label>Message (Optional)</label>
+          <textarea placeholder="Tell us about your hair loss history, any treatments you've tried, or questions you have..."></textarea>
+        </div>
+        <button class="btn btn-gold" id="submitBtn" style="width:100%;justify-content:center;font-size:13px">
+          Submit Consultation Request
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+        <p style="font-size:11.5px;color:var(--muted);margin-top:12px;text-align:center">&#128274; Your information is 100% confidential and never shared with third parties.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft-top">
+    <div class="container">
+      <div class="ft-grid">
+        <div class="ft-brand">
+          <div class="logo-e">ELITE</div>
+          <div class="logo-s">Hair Transplant Clinic</div>
+          <p>Pakistan's most trusted name in hair restoration since 2009. World-class FUE, DHI and PRP treatments delivered with precision, artistry and genuine care.</p>
+          <div class="ft-soc">
+            <a href="#" class="fsoc">f</a>
+            <a href="#" class="fsoc">in</a>
+            <a href="#" class="fsoc">yt</a>
+            <a href="#" class="fsoc">ig</a>
+            <a href="#" class="fsoc">tk</a>
+          </div>
+        </div>
+        <div class="ft-col">
+          <h4>Treatments</h4>
+          <ul class="ft-links">
+            <li><a href="#">FUE Hair Transplant</a></li>
+            <li><a href="#">DHI Hair Transplant</a></li>
+            <li><a href="#">PRP Therapy</a></li>
+            <li><a href="#">FUT Strip Method</a></li>
+            <li><a href="#">Beard Transplant</a></li>
+            <li><a href="#">Eyebrow Restoration</a></li>
+          </ul>
+        </div>
+        <div class="ft-col">
+          <h4>Clinic</h4>
+          <ul class="ft-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#gallery">Before &amp; After</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="ft-col">
+          <h4>Stay Informed</h4>
+          <div class="ft-nl">
+            <p>Get hair restoration tips, patient stories and exclusive clinic updates in your inbox.</p>
+            <div class="ft-nl-form">
+              <input type="email" placeholder="Your email address">
+              <button class="btn btn-gold" style="justify-content:center;padding:12px;width:100%">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ft-bot">
+    <div class="container">
+      <div class="ft-bot-in">
+        <p>&#169; 2025 Elite Hair Transplant Clinic. All rights reserved.</p>
+        <div class="ft-bot-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp -->
+<a href="https://wa.me/923001234567" class="wa" target="_blank" rel="noopener noreferrer">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <span class="wa-t">Chat on WhatsApp</span>
+</a>
+
+<!-- Back to top -->
+<button class="btt" id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">&#8593;</button>
+
+<script>
+const nav=document.getElementById("mainNav");
+const btt=document.getElementById("btt");
+window.addEventListener("scroll",()=>{nav.classList.toggle("scrolled",window.scrollY>60);btt.classList.toggle("show",window.scrollY>400)},{passive:true});
+const ham=document.getElementById("ham");
+const mob=document.getElementById("mobMenu");
+ham.addEventListener("click",()=>{ham.classList.toggle("open");mob.classList.toggle("open");document.body.style.overflow=mob.classList.contains("open")?"hidden":""});
+mob.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{ham.classList.remove("open");mob.classList.remove("open");document.body.style.overflow=""}));
+document.querySelectorAll(".comp-box").forEach(box=>{
+  const before=box.querySelector(".c-before-img");
+  const handle=box.querySelector(".c-handle");
+  let active=false;
+  const set=x=>{const r=box.getBoundingClientRect();const p=Math.max(.04,Math.min(.96,(x-r.left)/r.width));before.style.clipPath=`inset(0 ${(1-p)*100}% 0 0)`;handle.style.left=`${p*100}%`};
+  box.addEventListener("mousedown",e=>{active=true;set(e.clientX)});
+  window.addEventListener("mouseup",()=>{active=false});
+  window.addEventListener("mousemove",e=>{if(active)set(e.clientX)});
+  box.addEventListener("touchstart",e=>{active=true;set(e.touches[0].clientX)},{passive:true});
+  window.addEventListener("touchend",()=>{active=false});
+  window.addEventListener("touchmove",e=>{if(active)set(e.touches[0].clientX)},{passive:true});
+});
+document.querySelectorAll(".fQ").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    const open=btn.classList.contains("active");
+    document.querySelectorAll(".fQ").forEach(b=>{b.classList.remove("active");b.nextElementSibling.style.maxHeight="0"});
+    if(!open){btn.classList.add("active");btn.nextElementSibling.style.maxHeight=btn.nextElementSibling.scrollHeight+"px"}
+  });
+});
+const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add("vi");obs.unobserve(e.target)}}),{threshold:.1});
+document.querySelectorAll(".rv").forEach(el=>obs.observe(el));
+document.querySelectorAll("a[href^=\"#\"]").forEach(a=>{a.addEventListener("click",e=>{const t=document.querySelector(a.getAttribute("href"));if(t){e.preventDefault();window.scrollTo({top:t.offsetTop-80,behavior:"smooth"})}})});
+document.getElementById("submitBtn").addEventListener("click",function(){this.innerHTML="Request Sent &#10003; &mdash; We'll call you shortly";this.style.background="#2d6a4f";this.style.color="white";this.disabled=true});
+</script>
+</body>
+</html>
